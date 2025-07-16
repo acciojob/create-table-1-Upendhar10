@@ -8,5 +8,5 @@ function insert_Row() {
 	<td>New Cell1</td>
 	<td>New Cell2</td>
 	`
-	table.append(newRow);
+	table.insertBefore(newRow, table.firstChild);
 }
