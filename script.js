@@ -7,6 +7,7 @@ function insert_Row() {
 	newRow.innerHTML = `
 	<td>New Cell1</td>
 	<td>New Cell2</td>
+	<br>
 	`
 	table.insertBefore(newRow, table.firstChild);
 }
