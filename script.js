@@ -6,6 +6,7 @@ function insert_Row() {
 	let newRow = document.createElement('tr');
 	newRow.innerHTML = `
 	<td>New Cell1</td>
+	<br>
 	<td>New Cell2</td>
 	<br>
 	`
